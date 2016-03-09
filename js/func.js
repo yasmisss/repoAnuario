@@ -1,5 +1,9 @@
 /* Archivo con funcionalidad JS */
 
+function putHand(item) {
+	item.style.cursor = 'hand';
+}
+
 function hide_unHide(item) {
 
    var elem = document.getElementById(item) {
